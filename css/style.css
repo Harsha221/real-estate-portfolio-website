@@ -280,7 +280,7 @@ header.scrolled {
     flex: 1;
     min-width: 300px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
     gap: 30px;
 }
 
@@ -632,7 +632,7 @@ header.scrolled {
     }
     
     .about-stats {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
     
     .contact-form {
